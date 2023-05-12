@@ -1,0 +1,30 @@
+﻿  CameraControl.cpp
+  camset.cpp
+C:\temp\cam\CameraControl\CameraControl\camset.cpp(196,67): warning C4101: 'ia': unreferenced local variable
+C:\temp\cam\CameraControl\CameraControl\camset.cpp(198,63): warning C4101: 'oor': unreferenced local variable
+C:\temp\cam\CameraControl\CameraControl\camset.cpp(295,48): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=uint32_t
+          ]
+C:\temp\cam\CameraControl\CameraControl\camset.cpp(468,48): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=uint32_t
+          ]
+C:\temp\cam\CameraControl\CameraControl\camset.cpp(711,56): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=uint32_t
+          ]
+C:\temp\cam\CameraControl\CameraControl\camset.cpp(713,56): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=uint32_t
+          ]
+  Generating code
+  3 of 218 functions ( 1.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CameraControl.vcxproj -> C:\temp\cam\CameraControl\x64\Release\CameraControl.exe
