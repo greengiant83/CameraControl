@@ -534,6 +534,8 @@ void CamSetAll::executeSettings(Settings settings)
 
             while (pEnum->Next(1, &pMoniker, NULL) == S_OK)
             {
+                logMe(LOG_DBG, "Enum");
+
                 // Get the capture filter pointer for the IPropertyBag interface
                 HRESULT hr = pMoniker->BindToStorage(0, 0, IID_PPV_ARGS(&pPropBag));
                 if (FAILED(hr))
@@ -588,7 +590,6 @@ void CamSetAll::executeSettings(Settings settings)
 
 
                         if (CameraControlCapable) pCamCtrl->Release();
-                        break; //break while idxArray, try next device (moniker)
                     }
                 } //if device path read succeeded
                 pPropBag->Release();

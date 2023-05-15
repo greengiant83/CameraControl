@@ -23,10 +23,10 @@ void helpme() {
 int main(int argc, char* argv[])
 {
     //test
-    /*argc = 2;
+    /*argc = 3;
     argv[0] = (char*)"CameraControl";
-    argv[1] = (char*)"--exposure";*/
-    //argv[2] = (char*)"-7";
+    argv[1] = (char*)"--exposure";
+    argv[2] = (char*)"-9";*/
     /*argv[1] = (char*)"--focus";
     argv[2] = (char*)"auto";*/
 
